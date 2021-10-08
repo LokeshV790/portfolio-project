@@ -1,3 +1,7 @@
+:root {
+    --font: 'Inter', sans-serif;
+}
+
 html {
     height: 100%;
 }
@@ -13,10 +17,17 @@ body {
 
 h1.tittle {
     font-size: 50px;
+    font-weight: 600;
+    font-family: var(--font);
 }
 
 .navbar {
 z-index: 1000;
+}
+
+.nav-font {
+font-family: var(--font);
+font-weight: 500;
 }
 
 .nav-item {
