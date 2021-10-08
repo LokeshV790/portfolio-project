@@ -10,7 +10,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background: linear-gradient( #e3eeff, #f3e7e9);
 }
 
 
@@ -19,6 +19,13 @@ h1.tittle {
     font-size: 50px;
     font-weight: 600;
     font-family: var(--font);
+}
+
+img.icon {
+    width: 500px;
+    border-radius:100%;
+    box-shadow: 0px 0px 1px #ddd, 0 10px 20px #ccc,
+    0px 0px 100px rgba(227, 135, 255, 0.4);
 }
 
 .navbar {
