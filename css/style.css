@@ -1,3 +1,25 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+
+
 h1.tittle {
     font-size: 50px;
 }
+
+.navbar {
+z-index: 1000;
+}
+
+.nav-item {
+    padding-left: 2rem;
+}
+
