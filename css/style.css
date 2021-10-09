@@ -11,6 +11,35 @@
      30px -20px 20px rgba(118, 255, 255, 0.22) !important;
 }
 
+h1.tittle {
+    font-size: 33px !important;
+}
+
+h2.size-based {
+    font-size: 20px !important;
+}
+
+div.move-name {
+    font-size: 14px !important; }
+
+h3.hand {
+    font-size: 20px !important;
+}
+
+span.name {
+    font-size: 15px !important;
+}
+
+div.moving-tittle {
+    margin-top: 2rem !important;
+}
+
+}
+
+@media (max-width: 780px) {
+    h1.tittle {
+        font-size: 60px;
+    }
 }
     
 
@@ -29,15 +58,23 @@ h1.tittle {
 }
 .navbar {
 z-index: 1000;
+position: fixed;
+background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.02);
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .nav-font {
 font-family: var(--font);
 font-weight: 500;
+font-size: 15px;
 }
 
 .nav-item {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 img.icon {
@@ -85,7 +122,7 @@ div.moving-tittle {
 h1.tittle {
     font-size: 70px;
      background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-image: linear-gradient(90deg, #ffa047, #c471ed, #52d7e0);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -95,9 +132,33 @@ h1.tittle {
 }
 
 div.based-in {
-    font-size: 40px;
-    opacity: 60%;
+    font-size: 30px !important;
+    opacity: 90%;
 }
+
+h2.size-based {
+    font-size: 30px;
+}
+
+div.salute {
+background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 2rem;
+}
+
+li.work-link {
+    margin-left: 10rem;
+}
+
+a.work-link-color {
+    color: #906efd!important;
+}
+
+
 
 
 

@@ -19,9 +19,9 @@
   <body>
     <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid nav-font pt-2">
-    <div class="col-1 d-none d-sm-none d-lg-block"></div>
-    <a class="navbar-brand col-3 nav-name" href="#">Mili P. Gonzalez</a>
+  <div class="container-fluid nav-font pt-1">
+    <div class="col-2 d-none d-sm-none d-lg-block"></div>
+    <a class="navbar-brand col-2 nav-name" href="#">Mili P. Gonzalez</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon position-relative justify-content-sm-end"></span>
     </button>
@@ -39,6 +39,9 @@
         <li class="nav-item">
           <a class="nav-link">Contact</a>
         </li>
+        <li class="nav-item work-link d-none d-sm-block">
+          <a class="nav-link work-link-color">Work request 🚀</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -54,15 +57,16 @@
 
 
 <!--Name-->
-<div class="container position-relative move-name">
+<div class="container position-relative move-name d-none d-sm-block">
   <div class="row row-cols-auto">
-    <div class="col-1">
+    <div class="col-sm-1">
       </div>
       <div class="row row-cols-auto name-card">
-        <div class="col-1 col-4">
-         <h3 class="pt-4">👋</h3>
+        <div class="col-sm-1 col-sm-4">
+         <h3 class="pt-4 d-none d-sm-block hand">👋</h3>
+         <h3 class="pt-1 d-sm-none hand">👋</h3>
         </div>
-        <div class="col-1 col-6 p-2 salute">
+        <div class="col-sm-1 col-sm-6 p-2">
           Hi! I am <span class="name">Mili</span>
         </div>
       </div>
@@ -71,14 +75,26 @@
   </div>
 </div>
 
+<!--Name card for mobile-->
+<div class="container d-block d-sm-none">
+  <div class="row row-cols-auto">
+    <div class="col-3"></div>
+    <div class="col-6" align="center">
+        <div class="col-sm-1 col-sm-6 p-2 salute" align="center">
+          👋 Hi! I am <span class="name">Mili</span>
+        </div>
+  </div>
+</div>
+</div>
 <!--Tittle-->
 <div class="container position-relative moving-tittle">
    <div class="row">
+     <!--Name Card for Mobile-->
     <div class="col-12">
       <h1 class="tittle" align="center">Front-End Developer</h1>
     </div>
     <div class="col-12 based-in" align="center">
-      <h2>Based in Orlando, United States.</h2>
+      <h2 class="size-based">Based in Orlando, United States.</h2>
     </div>
   </div>
 </div>
