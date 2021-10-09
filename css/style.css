@@ -2,17 +2,24 @@
     --font: 'Inter', sans-serif;
 }
 
+@media (max-width: 576px) {
+    img.icon {
+        width: 200px !important;
+        box-shadow: 
+    -30px -20px 20px rgba(227, 135, 255, 0.3),
+    0px 40px 20px rgba(255, 219, 57, 0.3),
+     30px -20px 20px rgba(118, 255, 255, 0.22) !important;
+}
+
+}
+    
+
 html {
     height: 100%;
 }
 body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: linear-gradient( #e3eeff, #f3e7e9);
+    background: #ECF2F7 !important;
 }
-
 
 
 h1.tittle {
@@ -20,14 +27,6 @@ h1.tittle {
     font-weight: 600;
     font-family: var(--font);
 }
-
-img.icon {
-    width: 500px;
-    border-radius:100%;
-    box-shadow: 0px 0px 1px #ddd, 0 10px 20px #ccc,
-    0px 0px 100px rgba(227, 135, 255, 0.4);
-}
-
 .navbar {
 z-index: 1000;
 }
@@ -40,4 +39,69 @@ font-weight: 500;
 .nav-item {
     padding-left: 2rem;
 }
+
+img.icon {
+    width: 300px;
+    border-radius:100%;
+    outline: 10px double rgba(255, 255, 255, 0.4);
+    border-width: 10px;
+    box-shadow: 
+    -50px -20px 40px rgba(227, 135, 255, 0.25),
+    0px 50px 40px rgba(255, 219, 57, 0.3),
+     50px -20px 40px rgba(118, 255, 255, 0.3);
+}
+
+div.name-card {
+ background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+div.move-name {
+    margin-top: -15rem;
+}
+
+span.name {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: var();
+}
+
+div.salute {
+    font-family: var(--font);
+}
+
+p {
+    font-family: var(--font);
+}
+
+div.moving-tittle {
+    margin-top: 13rem;
+}
+
+h1.tittle {
+    font-size: 70px;
+     background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+}
+
+div.based-in {
+    font-size: 40px;
+    opacity: 60%;
+}
+
+
+
+
+
 
