@@ -21,12 +21,15 @@
   </head>
   <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid nav-font pt-1">
-        <div class="col-2 d-none d-sm-none d-md-none d-lg-none d-xl-block"></div>
-        <div class="col-1 d-none d-sm-nonce d-md-none d-lg-block d-xl-none"></div>
-        <a class="navbar-brand col-2 nav-name" href="#">
-           Mili P. Gonzalez</a>
+        <div
+          class="col-2 d-none d-sm-none d-md-none d-lg-none d-xl-block"
+        ></div>
+        <div
+          class="col-1 d-none d-sm-nonce d-md-none d-lg-block d-xl-none"
+        ></div>
+        <a class="navbar-brand col-2 nav-name" href="#"> Mili P. Gonzalez</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,9 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-center">
             <li class="nav-item services">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Services</a
-              >
+              <a class="nav-link" aria-current="page" href="#">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
@@ -128,7 +129,15 @@
         <div class="row">
           <!--Name Card for Mobile-->
           <div class="col-12">
-            <h1 class="tittle" align="center">Front-End Developer</h1>
+            <h1 class="tittle d-sm-block d-md-none d-lg-block" align="center">
+              Front-End Developer
+            </h1>
+            <h2
+              class="tittle-smaller d-none d-sm-none d-md-block d-lg-none"
+              align="center"
+            >
+              Front-End Developer
+            </h2>
           </div>
           <div class="col-12 based-in" align="center">
             <h2 class="size-based">Based in Orlando, United States.</h2>
@@ -141,10 +150,43 @@
         <div class="row">
           <div class="col-3"></div>
           <div class="col-6" align="center">
-            <a class="nav-link work-link-color lets-work">Let's work ></a>
+            <a class="nav-link work-link-color lets-work mb-3">Let's work! ></a>
           </div>
           <div class="col-3"></div>
+          <div class="container d-flex justify-content-center">
+            <div class="line"></div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!--Quote-->
+    <div class="container-fluid quote hide-me" id="quote">
+      <div class="container d-flex justify-content-center">
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 align="center" class="size-quote first-part-quote">
+            Is not just what it looks like and feels like.
+          </h3>
+        </div>
+        <div class="col-12">
+          <h3 align="center" class="size-quote second-part-quote">
+            Is how it works.
+          </h3>
+          <p align="center" class="steve-jobs">- Steve Jobs</p>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <!--Benefits-->
+    <div class="container services-space">
+      <div class="row">
+        <div class="col">Services</div>
       </div>
     </div>
     <script
@@ -152,5 +194,6 @@
       integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
       crossorigin="anonymous"
     ></script>
+    <script src="/javascript/jsc.js"></script>
   </body>
 </html>

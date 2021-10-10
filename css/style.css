@@ -1,5 +1,6 @@
 :root {
   --font: "Inter", sans-serif;
+  --size-quote: 98px;
 }
 
 @media (max-width: 576px) {
@@ -15,7 +16,7 @@
   }
 
   h2.size-based {
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
 
   div.move-name {
@@ -37,18 +38,45 @@
   li.services {
     margin-left: 0 !important;
   }
+
+  a.lets-work {
+      font-size: 18px !important;
+  }
+
+div.quote {
+    padding: 0 3rem !important;
 }
 
-@media (max-width: 780px) {
+  h3.size-quote {
+      font-size: 25px !important;
+  }
+   p.steve-jobs {
+      font-size: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
   h1.tittle {
-    font-size: 55px;
+    font-size: 40px;
   }
   li.services {
     margin-left: 0 !important;
   }
 
   span.name {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  div.quote {
+      padding: 0 6rem !important;
+  }
+
+  h3.size-quote {
+      font-size: 40px !important;
+  }
+
+  p.steve-jobs {
+      font-size: 20px;
   }
 
 }
@@ -58,32 +86,14 @@ html {
 }
 body {
   background: #ecf2f7 !important;
-  /*background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-*/
 }
 
 div.background-main {
   margin: 0;
   background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
+  animation: gradient 10s ease infinite;
+  height: fit-content;
 }
 
 @keyframes gradient {
@@ -104,14 +114,20 @@ h1.tittle {
   font-family: var(--font);
 }
 
+h2.tittle-smaller {
+   font-size: 50px;
+   color: #F2F6F9;
+  font-weight: 600;
+  font-family: var(--font);  
+}
+
 .navbar {
   z-index: 1000;
   position: fixed;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.02);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -123,6 +139,7 @@ h1.tittle {
 
 img.icon {
   width: 300px;
+  margin-top: 8rem !important;
   border-radius: 100%;
   outline: 10px double rgba(255, 255, 255, 0.4);
   border-width: 10px;
@@ -205,7 +222,6 @@ div.artist {
   font-family: var(--font);
   font-size: 25px;
   font-weight: 600;
-  opacity: 80%;
   padding: 1rem;
   margin-left: 4rem;
 }
@@ -250,4 +266,75 @@ a.lets-work {
   color: #F2F6F9 !important;
   font-weight: 500;
   font-family: var(--font);
+}
+
+div.line {
+    height: 5rem;
+    border-left: 2px solid #FFFFFF;
+    opacity: 30%;
+    padding: 0;
+    display: flex;
+}
+
+div.quote-now {
+    padding-top: 10rem;
+}
+
+div.quote {
+    padding: 0 8rem;
+    background-color: #03001e;
+    transition: all 200ms ease-in-out;
+}
+
+h3.size-quote {
+    font-size: var(--size-quote);
+    font-family: var(--font);
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: -2px;
+}
+
+h3.first-part-quote {
+    padding-top: 3rem;
+}
+
+p.steve-jobs {
+    font-size: 30px;
+    font-family: var(--font);
+    font-weight: 500;
+    opacity: 60%;
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+}
+
+h3.second-part-quote {
+    background-color: #f3ec78;
+background: linear-gradient(90deg, 
+
+#feac5e,
+#c779d0,
+#4bc0c8);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 9s ease infinite;
+  height: fit-content;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+div.services-space {
+    padding-bottom: 50rem;
 }
