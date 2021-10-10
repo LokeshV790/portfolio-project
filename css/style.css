@@ -41,18 +41,16 @@
 
 @media (max-width: 780px) {
   h1.tittle {
-    font-size: 55px !important;
+    font-size: 55px;
   }
   li.services {
     margin-left: 0 !important;
   }
 
-  .artist-move {
-    margin-left: 3rem !important;
-  }
   span.name {
-    font-size: 30px !important;
+    font-size: 30px;
   }
+
 }
 
 html {
@@ -166,6 +164,7 @@ div.moving-tittle {
 
 .nav-name {
     font-weight: 600;
+    opacity: 80%;
 }
 
 h1.tittle {
@@ -196,7 +195,6 @@ h2.size-based {
 div.artist-move {
   margin-top: 10rem;
   margin-bottom: 3rem;
-  margin-left: 9rem;
 }
 
 li.services {
