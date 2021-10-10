@@ -1,6 +1,10 @@
 :root {
   --font: "Inter", sans-serif;
-  --size-quote: 98px;
+  --size-quote: 95px;
+  --dark-background:#03001e;
+  --yellow: #feac5e;
+  --purple: #c779d0;
+  --blue: #4bc0c8;
 }
 
 @media (max-width: 576px) {
@@ -53,6 +57,14 @@ div.quote {
    p.steve-jobs {
       font-size: 15px !important;
   }
+
+    div.line-horizontal {
+     width: 8.5rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -79,6 +91,21 @@ div.quote {
       font-size: 20px;
   }
 
+  div.line-horizontal {
+     width: 18.2rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1380px) {
+h3.size-quote {
+    font-size: 50px !important;
+}
 }
 
 html {
@@ -124,7 +151,7 @@ h2.tittle-smaller {
 .navbar {
   z-index: 1000;
   position: fixed;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.02);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -337,4 +364,50 @@ background: linear-gradient(90deg,
 
 div.services-space {
     padding-bottom: 50rem;
+    background-color: var(--dark-background);
+}
+
+div.line-yellow {
+     height: 5rem;
+    border-left: 2px solid #feac5e;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
+
+
+div.line-purple {
+     height: 5rem;
+    border-left: 2px solid #c779d0;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
+
+div.line-horizontal {
+     width: 33.8rem;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
+
+div.purple {
+    color: var(--purple);
+}
+
+div.line-vertical {
+       height: 5rem;
+    border-left: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+}
+
+div.blue {
+    color: var(--blue);
+}
+
+div.adjust {
+    margin-top: -1px;
 }
