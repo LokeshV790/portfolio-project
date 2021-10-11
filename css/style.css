@@ -31,6 +31,12 @@
     font-size: 20px !important;
   }
 
+  img.memoji {
+    width: 120px !important;
+    margin-top: -16rem !important;
+    margin-left: 8rem !important
+  }
+
   span.name {
     font-size: 15px !important;
   }
@@ -38,6 +44,14 @@
   div.moving-tittle {
     margin-top: 2rem !important;
   }
+
+  h2.services-head {
+  font-size: 20px !important;
+}
+
+h3.tittle-services { 
+  font-size: 30px !important;
+}
 
   li.services {
     margin-left: 0 !important;
@@ -56,6 +70,18 @@ div.quote {
   }
    p.steve-jobs {
       font-size: 15px !important;
+  }
+
+  div.line-yellow, .line-purple {
+      height: 50px !important;
+  }
+
+  h3.first-part-quote {
+      padding-top: 1rem !important;
+  }
+
+  p.steve-jobs {
+      padding-bottom: 1rem !important;
   }
 
     div.line-horizontal {
@@ -106,6 +132,8 @@ div.quote {
 h3.size-quote {
     font-size: 50px !important;
 }
+
+
 }
 
 html {
@@ -209,6 +237,7 @@ div.moving-tittle {
 .nav-name {
     font-weight: 600;
     opacity: 80%;
+    color:var(--dark-background)
 }
 
 h1.tittle {
@@ -268,7 +297,7 @@ li.work-link {
 }
 
 a.work-link-color {
-  color: #906efd !important;
+  color: var(--dark-background) !important;
 }
 
 div.skills-bubble {
@@ -410,4 +439,22 @@ div.blue {
 
 div.adjust {
     margin-top: -1px;
+}
+
+h2.services-head {
+  color: var(--purple);
+  font-family: var(--font);
+  opacity: 60%;
+}
+
+h3.tittle-services {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 50px;
+  color: #FFFFFF
+}
+
+img.memoji {
+  width: 210px;
+  margin-top: 4rem;
 }
