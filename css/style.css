@@ -93,6 +93,61 @@
     padding: 0;
     display: flex;
   }
+
+img.memoji {
+    width: 110px !important;
+    margin-left: 7rem !important;
+    margin-top: -10rem !important;
+  }
+
+  div.first-space {
+    margin-top: 2rem !important;
+  }
+
+  div.second-space {
+    margin-top: 2rem !important;
+  }
+
+  div.third-space {
+    margin-top: 2rem !important;
+  }
+
+  span.ui-tittle {
+    font-size: 21px !important;
+  }
+
+  span.developer-tittle {
+    font-size: 21px !important;
+  }
+
+  span.artist-tittle {
+    font-size: 21px !important;
+  }
+
+  div.description-skill {
+    font-size: 12px !important;
+  }
+
+  h3.tittle-services {
+    font-size: 25px !important;
+  }
+
+  i.bootstrap {
+    margin-left: 10rem;
+    font-size: 30px !important;
+  }
+
+   i.code {
+    margin-left: 8rem;
+    font-size: 30px !important;
+    margin-top: 1rem !important;
+  }
+
+  i.js {
+    margin-left: 2rem !important;
+  }
+
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -126,12 +181,91 @@
     padding: 0;
     display: flex;
   }
+
+     h3.tittle-services {
+    font-size: 30px !important;
+  }
+
+  span.ui-tittle {
+    font-size: 23px !important;
+  }
+
+  span.developer-tittle {
+    font-size: 22px !important;
+  }
+
+  span.artist-tittle {
+    font-size: 23px !important;
+  }
+
+  img.memoji {
+    width: 160px !important;
+  }
+
+div.description-skill {
+    font-size: 10px !important;
+  }
+
+  div.card-skills {
+    width: 250px !important;
+  }
+
+  i.code {
+    font-size: 50px !important;
+    margin-top: 1rem !important;
+  }
+
+  i.bootstrap {
+    margin-top: 1rem !important;
+    margin-left: 3rem;
+  }
+
+  i.js {
+    margin-top: -1rem !important;
+  }
+
+  i.github {
+    font-size: 50px !important;
+    margin-left: 3rem;
+  }
+
+  div.first-space {
+    margin-top: -29rem !important;
+  }
+
+  div.second-space {
+    margin-top: -19rem !important;
+  }
+
+  div.third-space {
+    margin-top: -9rem !important;
+  }
+
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1380px) {
   h3.size-quote {
     font-size: 50px !important;
   }
+
+  div.description-skill {
+    font-size: 11px !important;
+  }
+
+  i.bootstrap {
+    margin-left: 4rem;
+  }
+
+  i.github {
+    margin-left: 3rem;
+  }
+
+  h3.tittle-services {
+    font-size: 50px !important;
+  }
+
+  
+  
 }
 
 html {
@@ -571,7 +705,7 @@ i.art {
 i.bootstrap {
   color: #9c6cebf3;
   font-size: 55px;
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 i.code {
@@ -582,13 +716,15 @@ i.code {
 }
 
 i.js {
-  color: #9c6cebf3;
+  color: #FBD485;
   font-size: 50px;
+  margin-top: 0.5rem;
+  margin-left: -2rem;
 }
 
 i.github {
-  color: #9c6cebf3;
-  font-size: 50px;
+  color: #EF629F;
+  font-size: 60px;
 }
 
 div.icons-first {

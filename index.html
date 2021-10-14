@@ -186,7 +186,7 @@
       </div>
       <!--Line vertically-->
       <div class="container d-flex justify-content-center">
-        <div class="line-purple" id="services"></div>
+        <div class="line-purple"></div>
       </div>
     </div>
 
@@ -195,7 +195,7 @@
       <!--Line guidance-->
       <div class="container d-flex justify-content-start">
         <div class="col-1"></div>
-        <div class="line-horizontal purple"></div>
+        <div class="line-horizontal purple" id="services"></div>
       </div>
       <div class="container d-flex justify-content-start">
         <div class="col-1"></div>
@@ -227,25 +227,42 @@
 
         <!--Icons around-->
 
-        <div class="container icons-first">
+        <div class="container icons-first d-none d-sm-block">
           <div class="row">
             <div class="col-1 me-4"></div>
             <div class="col-3">
               <i class="fas fa-code code"></i>
             </div>
-            <div class="col">
+            <div class="col-1 ms-1">
               <i class="fab fa-bootstrap bootstrap"></i>
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container d-none d-sm-block">
           <div class="row">
             <div class="col-2"></div>
             <div class="col-2">
               <i class="fab fa-js-square js"></i>
             </div>
             <div class="col">
-             <i class="fab fa-github github"></i>
+              <i class="fab fa-github github"></i>
+            </div>
+          </div>
+        </div>
+        <!--Icons skills for mobile-->
+        <div class="container d-block d-sm-none">
+          <div class="row">
+            <div class="col-1">
+              <i class="fas fa-code code-mobile"></i>
+            </div>
+            <div class="col-1">
+              <i class="fab fa-bootstrap bootstrap-mobile"></i>
+            </div>
+            <div class="col-1">
+              <i class="fab fa-js-square js-mobile"></i>
+            </div>
+            <div class="col-1">
+              <i class="fab fa-github github-mobile"></i>
             </div>
           </div>
         </div>
@@ -254,10 +271,10 @@
           <div class="row">
             <!--Developer skills-->
             <div class="col-6 ms-5"></div>
-            <div class="col-5 skill first-space" align="left">
+            <div class="col-sm-5 skill first-space" align="left">
               <div class="container card-skills w-75">
                 <i class="fas fa-mouse-pointer pe-1 mouse"></i>
-                <span class="developer-tittle">Developer Skills</span> 
+                <span class="developer-tittle">Developer Skills</span>
                 <div
                   class="col description-skill developer-skills"
                   align="left"
@@ -270,10 +287,10 @@
             </div>
             <!--UI Design-->
             <div class="col-6 ms-5"></div>
-            <div class="col-5 skill second-space" align="left">
+            <div class="col-sm-5 skill second-space" align="left">
               <div class="container card-skills w-75">
                 <i class="fas fa-object-ungroup pe-1 design"></i>
-               <span class="ui-tittle">UI Design</span> 
+                <span class="ui-tittle">UI Design</span>
                 <div class="col description-skill ui-design" align="left">
                   A love for design and a right eye for creativity, with
                   background in wireframing, color theory and visual
@@ -283,10 +300,10 @@
             </div>
             <!--2D artist-->
             <div class="col-6 ms-5"></div>
-            <div class="col-5 skill third-space" align="left">
+            <div class="col-sm-5 skill third-space" align="left">
               <div class="container card-skills w-75">
                 <i class="fas fa-paint-brush pe-1 art"></i>
-                <span class="artist-tittle">2D Artist</span> 
+                <span class="artist-tittle">2D Artist</span>
                 <div
                   class="col description-skill artist-description"
                   align="left"
