@@ -6,6 +6,10 @@
   --purple: #c779d0;
   --blue: #4bc0c8;
   --white: #ffffff;
+  --violet: #9c6cebf3;
+  --light-yellow: #FBD485;
+  --pink:#ef629f;
+  --light-blue: #20bdff;
 }
 
 @media (max-width: 576px) {
@@ -145,6 +149,26 @@ img.memoji {
 
   i.js {
     margin-left: 2rem !important;
+  }
+
+  div.size-skill-mobile {
+    font-size: 28px;
+  }
+
+  i.js-mobile {
+    color: var(--light-yellow);
+  }
+
+  i.bootstrap-mobile {
+    color: var(--purple);
+  }
+
+  i.code-mobile {
+    color: var(--light-blue);
+  }
+
+  i.github-mobile {
+    color: var(--pink);
   }
 
 
