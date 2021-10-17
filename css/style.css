@@ -10,6 +10,7 @@
   --light-yellow: #FBD485;
   --pink:#ef629f;
   --light-blue: #20bdff;
+  --opacity: 60%;
 }
 
 @media (max-width: 576px) {
@@ -554,7 +555,7 @@ h3.second-part-quote {
 }
 
 div.services-space {
-  padding-bottom: 50rem;
+  padding-bottom: 10rem;
   background-color: var(--dark-background);
 }
 
@@ -753,4 +754,58 @@ i.github {
 
 div.icons-first {
   margin-top: -14rem;
+}
+
+div.space-line-projects {
+  margin: 0 0 0 0;
+}
+
+div.line-blue-vertical {
+  height: 13rem;
+  border-left: 2px solid var(--blue);
+  opacity: 50%;
+  padding: 0;
+  display: flex;
+}
+
+div.space-projects {
+  margin: 2rem 0 0 2rem;
+}
+
+h3.project-tittle {
+  font-size: 30px;
+  color: #12c2e9;
+  opacity: var(--opacity);
+  margin-top: 1rem;
+}
+
+h4.best-work {
+  color: var(--white);
+  font-size: 95px;
+  text-align: right;
+  text-align: center;
+}
+
+div.card-project {
+  background: linear-gradient(45deg,  #12c2e9,
+    #c471ed);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0.7rem 1.5rem;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+img.project-one {
+  width: 700px;
+}
+
+div.moving-up-projects {
+  margin-top: -32rem !important;
+}
+
+div.moving-project-one {
+  margin-top: 10rem;
 }
