@@ -771,12 +771,7 @@ h3.project-tittle {
 }
 
 h4.best-work {
-    background-color: #f3ec78;
-  background: linear-gradient(90deg, #9CECFB, #92FE9D); /* Chrome 10-25, Safari 5.1-6 */
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
+   color: var(--white);
   font-size: 65px;
   font-family: var(--font);
   font-weight: 600;
@@ -798,15 +793,15 @@ div.card-project {
 img.project-one {
   width: 610px;
   border-radius: 30px;
-  margin: 0 1rem 1rem 6rem;
-   transition: 0.5s ease all;
+  margin: 0 1rem 1rem 7rem;
+   transition: 0.4s ease all;
 }
 
  img.project-one:hover {
     transform:
       perspective(800px)
       rotateY(-8deg)
-      translateY(-30px)
+      translateY(-20px)
       rotateX(10deg)
       scale(1);
     filter: blur(0);
@@ -816,15 +811,15 @@ img.project-one {
 img.project-two {
   width: 600px;
   border-radius: 30px;
-  margin-left: 5px;
-  transition: 0.5s ease all;
+  margin-left: 1rem;
+  transition: 0.4s ease all;
 }
 
 img.project-two:hover {
     transform:
       perspective(800px)
       rotateY(-8deg)
-      translateY(-30px)
+      translateY(-20px)
       rotateX(10deg)
       scale(1);
     filter: blur(0);
@@ -853,9 +848,26 @@ div.projects-margin {
 
 p.curious-message {
   color: var(--white);
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--font);
   opacity: var(--opacity);
   font-weight: 600;
-  margin: 2rem 0 0 0 !important;
+  margin: 3rem 0 0 0 !important;
 }
+
+div.visit-position {
+   background-color: #f3ec78;
+  background: linear-gradient(
+    90deg,
+    #20bdff,
+    #a5fecb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+   font-size: 25px;
+  font-family: var(--font);
+  font-weight: 600; }
