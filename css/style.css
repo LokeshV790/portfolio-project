@@ -285,7 +285,49 @@
   h3.tittle-services {
     font-size: 50px !important;
   }
+
+  div.space-line-projects {
+  margin: 0 0 0 -1rem !important;
 }
+
+div.projects-margin {
+  margin: -0.08rem 0 0 28rem !important;
+}
+
+div.line-horizontal-project {
+  width: 16rem !important;
+  border-top: 2px solid;
+  opacity: 50%;
+  padding: 0;
+  display: flex;
+  margin: 0 0 0 -1.4rem !important;
+}
+
+h4.best-work {
+   color: var(--white);
+  font-size: 55px !important;
+  font-family: var(--font);
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0 3rem 0 !important;
+}
+
+img.project-one-mobile {
+  border-radius: 30px;
+  width: 800px;
+  margin: 2rem 0 1rem 0;
+}
+
+img.project-two-mobile {
+  border-radius: 30px;
+  width: 800px;
+  margin: 2rem 0 1rem 0;
+}
+
+  
+}
+
+/*General CSS*/
 
 html {
   height: 100%;
