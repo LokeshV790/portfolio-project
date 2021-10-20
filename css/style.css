@@ -585,6 +585,74 @@
   }
 }
 
+/*Tablet*/
+@media only screen and (min-width: 1660px) and (max-width: 2400px) {
+h3.size-quote {
+    font-size: 50px !important;
+  }
+
+  div.description-skill {
+    font-size: 13px !important;
+  }
+
+  div.line-horizontal {
+    width: 24.4rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+  }
+
+  i.bootstrap {
+    margin-left: 4rem;
+  }
+
+  i.github {
+    margin-left: 3rem;
+  }
+
+  h3.tittle-services {
+    font-size: 50px !important;
+  }
+
+  div.space-line-projects {
+    margin: 0 0 0 -1rem !important;
+  }
+
+  div.projects-margin {
+    margin: -0.08rem 0 0 28rem !important;
+  }
+
+  div.line-horizontal-project {
+    width: 16rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+    margin: 0 0 0 -1.4rem !important;
+  }
+
+  h4.best-work {
+    color: var(--white);
+    font-size: 55px !important;
+    font-family: var(--font);
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem 0 3rem 0 !important;
+  }
+
+  img.project-one {
+    border-radius: 30px;
+    width: 410px !important;
+    margin: 1rem 0 0 4rem !important;
+  }
+
+  img.project-two {
+    border-radius: 30px;
+    width: 408px !important;
+    margin: 1rem 0 1rem 1rem !important;
+  }
+}
 /*General CSS*/
 
 html {
