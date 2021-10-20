@@ -70,11 +70,11 @@
   }
 
   div.quote {
-    padding: 0 3rem !important;
+    padding: 0 2rem !important;
   }
 
   h3.size-quote {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   p.steve-jobs {
     font-size: 15px !important;
@@ -670,7 +670,7 @@ h3.size-quote {
   font-family: var(--font);
   font-weight: 600;
   color: #ffffff;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 h3.first-part-quote {
