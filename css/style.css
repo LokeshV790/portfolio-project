@@ -789,11 +789,11 @@ img.icon {
   border-radius: 100%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  outline: 5px solid rgba(255, 255, 255, 0.4);
   border-width: 10px;
   box-shadow: -50px -20px 40px rgba(227, 135, 255, 0.25),
     0px 50px 40px rgba(255, 219, 57, 0.3),
-    50px -20px 40px rgba(118, 255, 255, 0.3);
+    50px -20px 40px rgba(118, 255, 255, 0.3),
+    0 0 2pt 4pt rgba(255, 255, 255, 0.6);
 }
 
 div.name-card {
