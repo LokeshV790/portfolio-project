@@ -15,230 +15,143 @@
 
 /*Phone*/
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* For landscape layouts only */
-  img.icon {
-    width: 200px !important;
-    box-shadow: -30px -20px 20px rgba(227, 135, 255, 0.3),
-      0px 40px 20px rgba(255, 219, 57, 0.3),
-      30px -20px 20px rgba(118, 255, 255, 0.22) !important;
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+     h1.tittle {
+    font-size: 40px;
   }
-
-  h1.tittle {
-    font-size: 30px !important;
-  }
-
-  h2.size-based {
-    font-size: 17px !important;
-  }
-
-  div.move-name {
-    font-size: 14px !important;
-  }
-
-  h3.hand {
-    font-size: 20px !important;
-  }
-
-  img.memoji {
-    width: 120px !important;
-    margin-top: -12rem !important;
-    margin-left: 8.5rem !important;
-  }
-
-  span.name {
-    font-size: 15px !important;
-  }
-
-  div.moving-tittle {
-    margin-top: 2rem !important;
-  }
-
-  h2.services-head {
-    font-size: 20px !important;
-  }
-
-  h3.tittle-services {
-    font-size: 30px !important;
-  }
-
   li.services {
     margin-left: 0 !important;
   }
 
-  a.lets-work {
-    font-size: 18px !important;
+  span.name {
+    font-size: 20px;
   }
 
   div.quote {
-    padding: 0 2rem !important;
+    padding: 0 6rem !important;
   }
 
   h3.size-quote {
-    font-size: 30px !important;
-  }
-  p.steve-jobs {
-    font-size: 15px !important;
-  }
-
-  div.line-yellow,
-  .line-purple {
-    height: 50px !important;
-  }
-
-  h3.first-part-quote {
-    padding-top: 1rem !important;
+    font-size: 40px !important;
   }
 
   p.steve-jobs {
-    padding-bottom: 1rem !important;
+    font-size: 20px;
   }
 
   div.line-horizontal {
-    width: 8.9rem !important;
+    width: 18.2rem !important;
     border-top: 2px solid;
     opacity: 50%;
     padding: 0;
     display: flex;
   }
 
-  img.memoji {
-    width: 110px !important;
-    margin-left: 7rem !important;
-    margin-top: -10rem !important;
-  }
-
-  div.first-space {
-    margin-top: 2rem !important;
-  }
-
-  div.second-space {
-    margin-top: 2rem !important;
-  }
-
-  div.third-space {
-    margin-top: 2rem !important;
+  h3.tittle-services {
+    font-size: 30px !important;
   }
 
   span.ui-tittle {
-    font-size: 21px !important;
+    font-size: 23px !important;
   }
 
   span.developer-tittle {
-    font-size: 21px !important;
+    font-size: 22px !important;
   }
 
   span.artist-tittle {
-    font-size: 21px !important;
+    font-size: 23px !important;
+  }
+
+  img.memoji {
+    width: 160px !important;
   }
 
   div.description-skill {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
-  h3.tittle-services {
-    font-size: 25px !important;
-  }
-
-  i.bootstrap {
-    margin-left: 10rem;
-    font-size: 30px !important;
+  div.card-skills {
+    width: 250px !important;
   }
 
   i.code {
-    margin-left: 8rem;
-    font-size: 30px !important;
+    font-size: 50px !important;
     margin-top: 1rem !important;
   }
 
+  i.bootstrap {
+    margin-top: 1rem !important;
+    margin-left: 3rem;
+  }
+
   i.js {
-    margin-left: 2rem !important;
+    margin-top: -1rem !important;
   }
 
-  div.size-skill-mobile {
-    font-size: 28px;
+  i.github {
+    font-size: 50px !important;
+    margin-left: 3rem;
   }
 
-  i.js-mobile {
-    color: var(--light-yellow);
+  div.first-space {
+    margin-top: -29rem !important;
   }
 
-  i.bootstrap-mobile {
-    color: var(--purple);
+  div.second-space {
+    margin-top: -19rem !important;
   }
 
-  i.code-mobile {
-    color: var(--light-blue);
-  }
-
-  i.github-mobile {
-    color: var(--pink);
+  div.third-space {
+    margin-top: -9rem !important;
   }
 
   div.projects-margin {
     margin: -0.08rem 0 0 22.8rem !important;
   }
 
+  div.line-horizontal-project {
+    width: 11rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+    margin: 0 0 0 0.85rem !important;
+  }
+
   h4.best-work {
     color: var(--white);
-    font-size: 28px !important;
+    font-size: 40px !important;
     font-family: var(--font);
     font-weight: 600;
     text-align: center;
-    margin: 1rem 0 2rem 0 !important;
-  }
-
-  h3.project-tittle {
-    font-size: 24px !important;
+    margin: 2rem 0 3rem 0 !important;
   }
 
   img.project-one-mobile {
-    border-radius: 20px !important;
+    border-radius: 30px;
     width: 600px;
-    margin: 1rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
   }
 
   img.project-two-mobile {
-    border-radius: 20px !important;
+    border-radius: 30px;
     width: 600px;
-    margin: 1rem 0 0rem 0;
+    margin: 2rem 0 1rem 0;
   }
 
   div.line-blue-vertical {
-    height: 7rem !important;
-    margin: 0 0 0 -6.5rem !important;
+    height: 5rem !important;
     border-left: 2px solid var(--blue);
     opacity: 50%;
     padding: 0;
     display: flex;
   }
 
-  p.curious-message {
-    color: var(--white);
-    font-size: 19px !important;
-    font-family: var(--font);
-    opacity: var(--opacity);
-    font-weight: 600;
-    margin: 1rem 0 0 0 !important;
-  }
-
-  div.visit-position {
-    background-color: #f3ec78;
-    background: linear-gradient(
-      90deg,
-      #20bdff,
-      #a5fecb
-    ); /* Chrome 10-25, Safari 5.1-6 */
-
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    height: fit-content;
-    font-size: 19px !important;
-    font-family: var(--font);
-    font-weight: 600;
-  }
 }
 
 @media (max-width: 576px) {
