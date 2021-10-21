@@ -372,6 +372,24 @@
     font-family: var(--font);
     font-weight: 600;
   }
+
+  p.visit-message {
+    background-color: #f3ec78;
+    background: linear-gradient(
+      90deg,
+      #20bdff,
+      #a5fecb
+    ); /* Chrome 10-25, Safari 5.1-6 */
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-size: 19px !important;
+    font-family: var(--font);
+    font-weight: 600;
+  }
 }
 
 /*IPad*/
@@ -1293,4 +1311,24 @@ div.visit-position {
   font-size: 25px;
   font-family: var(--font);
   font-weight: 600;
+  margin: 0 0 3rem 0 !important;
 }
+
+p.visit-message {
+    background-color: #f3ec78;
+    background: linear-gradient(
+      90deg,
+      #20bdff,
+      #a5fecb
+    ); /* Chrome 10-25, Safari 5.1-6 */
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-family: var(--font);
+    font-weight: 600;
+  }
+
+  
