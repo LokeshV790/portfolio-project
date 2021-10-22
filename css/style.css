@@ -13,7 +13,7 @@
   --opacity: 60%;
 }
 
-/*Phone*/
+/*Phone Landscape*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   h1.tittle {
@@ -149,12 +149,21 @@
   }
 }
 
+/*IPhone Portrait*/
+
 @media (max-width: 576px) {
   img.icon {
     width: 200px !important;
     box-shadow: -30px -20px 20px rgba(227, 135, 255, 0.3),
       0px 40px 20px rgba(255, 219, 57, 0.3),
       30px -20px 20px rgba(118, 255, 255, 0.22) !important;
+  }
+
+  h3.about-me-tittle {
+    font-size: 25px !important;
+    color: var(--light-yellow);
+    opacity: var(--opacity);
+    margin: 3rem 0 0 0;
   }
 
   h1.tittle {
@@ -338,7 +347,7 @@
   }
 
   div.line-blue-vertical {
-    height: 7rem !important;
+    height: 5rem !important;
     margin: 0 0 0 -6.5rem !important;
     border-left: 2px solid var(--blue);
     opacity: 50%;
@@ -390,11 +399,13 @@
     font-family: var(--font);
     font-weight: 600;
   }
+
+  div.line-yellow-vertical {
+    height: 5rem !important;
+  }
 }
 
-/*IPad*/
-
-/* Portrait */
+/*Tablet Portrait */
 @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   h1.tittle {
     font-size: 40px;
@@ -529,6 +540,8 @@
   }
 }
 
+/*Phone Screen (bigger than IPhone)*/
+
 @media only screen and (min-width: 600px) and (max-width: 800px) {
   h1.tittle {
     font-size: 40px;
@@ -562,7 +575,7 @@
   }
 
   h3.tittle-services {
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
 
   span.ui-tittle {
@@ -663,8 +676,77 @@
   }
 }
 
+/*IPad Pro Portrait*/
+@media only screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: portrait) {
+  h3.size-quote {
+    font-size: 50px !important;
+  }
+
+  div.description-skill {
+    font-size: 13px !important;
+  }
+
+  div.line-horizontal {
+    width: 24.4rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+  }
+
+  i.bootstrap {
+    margin-left: 4rem;
+  }
+
+  i.github {
+    margin-left: 3rem;
+  }
+
+  h3.tittle-services {
+    font-size: 50px !important;
+  }
+
+  div.space-line-projects {
+    margin: 0 0 0 -1rem !important;
+  }
+
+  div.projects-margin {
+    margin: -0.08rem 0 0 28rem !important;
+  }
+
+  div.line-horizontal-project {
+    width: 16rem !important;
+    border-top: 2px solid;
+    opacity: 50%;
+    padding: 0;
+    display: flex;
+    margin: 0 0 0 -1.4rem !important;
+  }
+
+  h4.best-work {
+    color: var(--white);
+    font-size: 55px !important;
+    font-family: var(--font);
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem 0 3rem 0 !important;
+  }
+
+  img.project-one {
+    border-radius: 30px;
+    width: 410px !important;
+    margin: 1rem 0 0 4rem !important;
+  }
+
+  img.project-two {
+    border-radius: 30px;
+    width: 408px !important;
+    margin: 1rem 0 1rem 1rem !important;
+  }
+}
+
 /*IPad Pro Landscape */
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1000px) and (max-height: 1380px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
   h3.size-quote {
     font-size: 50px !important;
   }
@@ -1311,24 +1393,91 @@ div.visit-position {
   font-size: 25px;
   font-family: var(--font);
   font-weight: 600;
-  margin: 0 0 3rem 0 !important;
+  margin: 0 0 2rem 0 !important;
 }
 
 p.visit-message {
-    background-color: #f3ec78;
-    background: linear-gradient(
-      90deg,
-      #20bdff,
-      #a5fecb
-    ); /* Chrome 10-25, Safari 5.1-6 */
+  background-color: #f3ec78;
+  background: linear-gradient(
+    90deg,
+    #20bdff,
+    #a5fecb
+  ); /* Chrome 10-25, Safari 5.1-6 */
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    height: fit-content;
-    font-family: var(--font);
-    font-weight: 600;
-  }
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-family: var(--font);
+  font-weight: 600;
+}
 
-  
+div.line-yellow-vertical {
+  height: 7rem;
+  border-left: 2px solid var(--light-yellow);
+  opacity: 50%;
+  padding: 0;
+  display: flex;
+}
+
+h3.about-me-tittle {
+  font-size: 30px;
+  color: var(--light-yellow);
+  opacity: var(--opacity);
+  margin: 1rem 0 0 0;
+}
+
+div.margin-cards {
+  margin: 4rem 0 0 0;
+}
+
+img.memoji-about {
+  width: 300px;
+  margin: 0 0 0 -4rem;
+}
+
+div.card {
+  border-radius: 20px;
+  color: var(--white);
+}
+
+h5.card-title {
+  font-family: var(--font) !important;
+  font-weight: 600;
+  margin: 0 0 0 0;
+  font-size: 40px;
+  margin: 3rem;
+}
+
+p.card-text {
+  font-family: var(--font);
+  font-weight: 500;
+}
+
+div.education-behind {
+  margin: -11.15rem 0 0 0;
+  display: block;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+div.education-behind:hover {
+  opacity: 100%;
+}
+
+div.margin-second-cards {
+  margin: 1rem 0 0 0;
+}
+
+div.moving-memoji {
+  margin: -23rem 0 0 0 !important;
+}
+
+div.card-yellow {
+  background: linear-gradient(45deg, #ef629f, #eecda3);
+}
+
+div.card-blue {
+  background: linear-gradient(45deg, #1fa2ff, #a6ffcb);
+}
