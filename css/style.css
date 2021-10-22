@@ -1415,7 +1415,7 @@ p.visit-message {
 
 div.line-yellow-vertical {
   height: 7rem;
-  border-left: 2px solid var(--light-yellow);
+  border-left: 2px solid #00e3ae;
   opacity: 50%;
   padding: 0;
   display: flex;
@@ -1423,7 +1423,7 @@ div.line-yellow-vertical {
 
 h3.about-me-tittle {
   font-size: 30px;
-  color: var(--light-yellow);
+  color: #00e3ae;
   opacity: var(--opacity);
   margin: 1rem 0 0 0;
 }
@@ -1439,15 +1439,14 @@ img.memoji-about {
 
 div.card {
   border-radius: 20px;
-  color: var(--white);
+  background: #26243b;
 }
 
 h5.card-title {
   font-family: var(--font) !important;
   font-weight: 600;
-  margin: 0 0 0 0;
+  margin: 0 0 1rem 0;
   font-size: 40px;
-  margin: 3rem;
 }
 
 p.card-text {
@@ -1455,16 +1454,6 @@ p.card-text {
   font-weight: 500;
 }
 
-div.education-behind {
-  margin: -11.15rem 0 0 0;
-  display: block;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-}
-
-div.education-behind:hover {
-  opacity: 100%;
-}
 
 div.margin-second-cards {
   margin: 1rem 0 0 0;
@@ -1474,10 +1463,60 @@ div.moving-memoji {
   margin: -23rem 0 0 0 !important;
 }
 
-div.card-yellow {
-  background: linear-gradient(45deg, #ef629f, #eecda3);
+h5.card-green {
+  background: linear-gradient(120deg, #9be15d, #00e3ae);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-family: var(--font);
+  font-weight: 600;
 }
 
-div.card-blue {
-  background: linear-gradient(45deg, #1fa2ff, #a6ffcb);
+h5.card-blue {
+  background: linear-gradient(45deg, #a6ffcb, #1fa2ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+h5.card-purple {
+  background-color: #f3ec78;
+  background: linear-gradient(45deg, #DA22FF, #E100FF); /* Chrome 10-25, Safari 5.1-6 */
+background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+h5.card-yellow {
+   background-color: #f3ec78;
+   background: linear-gradient(120deg, #FF5ACD, #FBDA61); /* Chrome 10-25, Safari 5.1-6 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+div.card-transparent {
+  background: var(--dark-background);
+}
+
+p.card-info {
+  color: #ffffffc4;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 20px;
+
 }
