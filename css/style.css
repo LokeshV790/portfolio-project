@@ -1487,7 +1487,7 @@ h5.card-blue {
 
 h5.card-purple {
   background-color: #f3ec78;
-  background: linear-gradient(45deg, #DA22FF, #E100FF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #ec77ab, #E100FF); /* Chrome 10-25, Safari 5.1-6 */
 background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -1514,9 +1514,40 @@ div.card-transparent {
 }
 
 p.card-info {
-  color: #ffffffc4;
+  color: #ffffffcc;
   font-family: var(--font);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;;
+}
 
+div.shadow-pink {
+  transition: all 250ms ease;
+}
+
+div.shadow-pink:hover {
+  box-shadow: 0 10px 40px rgba(239, 101, 159, 0.7);
+}
+
+div.shadow-blue {
+transition: all 250ms ease;
+}
+
+div.shadow-blue:hover {
+  box-shadow: 0 10px 40px rgba(101, 188, 239, 0.7);
+}
+
+div.shadow-purple {
+transition: all 250ms ease;
+}
+
+div.shadow-purple:hover {
+  box-shadow: 0 10px 40px rgba(211, 101, 239, 0.7);
+}
+
+div.shadow-green {
+transition: all 250ms ease;
+}
+
+div.shadow-green:hover {
+  box-shadow: 0 10px 40px rgba(101, 239, 159, 0.7);
 }
