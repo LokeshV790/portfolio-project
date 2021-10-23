@@ -321,7 +321,7 @@
         <div class="row">
           <div class="col-9"></div>
           <div class="col-1 ms-2">
-            <div class="line-blue-vertical space-line-projects"></div>
+            <div class="line-blue-vertical space-line-projects d-"></div>
           </div>
           <div class="col-6"></div>
           <!--Horizontal line-->
@@ -437,7 +437,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
           </div>
           <!--Cards of About me-->
           <div class="row margin-cards">
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-block d-md-none d-lg-block">
               <div class="card shadow-pink">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-yellow">Education</h5>
@@ -448,7 +448,20 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <!--Mobile version -->
+            <div class="col-sm-6 d-none d-md-block d-lg-none">
+              <div class="card shadow-pink">
+                <div class="card-body landscape-padding" align="center">
+                  <h5 class="card-title card-yellow">Education</h5>
+                  <p class="card-info">
+                    Certificated Front-End-Developer by SheCodes Workshops in
+                    2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Illustration-->
+            <div class="col-sm-4 d-block d-md-none d-lg-block">
               <div class="card shadow-blue">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-blue">Illustration</h5>
@@ -459,10 +472,21 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
                 </div>
               </div>
             </div>
-            <div class="col-sm-4" align="center"></div>
-            <!--Cards behind-->
+            <!--Mobile version-->
+            <div class="col-sm-6 d-none d-md-block d-lg-none">
+              <div class="card shadow-blue">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-blue">Illustration</h5>
+                  <p class="card-info">
+                    Freelancer illustrator since 2018. A love for portraits and
+                    character design
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 d-block d-md-none d-lg-block" align="center"></div>
             <!--2nd row of cards-->
-            <div class="col-sm-4 margin-second-cards">
+            <div class="col-sm-4 margin-second-cards d-block d-md-none d-lg-block">
               <div class="card shadow-purple">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-purple">Networking</h5>
@@ -473,7 +497,32 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 margin-second-cards">
+            <!--Mobile Version-->
+            <div class="col-sm-6 margin-second-cards d-none d-md-block d-lg-none">
+              <div class="card shadow-purple">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-purple">Networking</h5>
+                  <p class="card-info">
+                    Created a plataform on Instagram to share my journey and
+                    connect with everyone
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Music-->
+            <div class="col-sm-4 margin-second-cards d-block d-md-none d-lg-block">
+              <div class="card shadow-green">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-green">Music & Games</h5>
+                  <p class="card-info">
+                    Songwritter, pianist and singer in my freetime. I also enjoy
+                    playing videogames as a hobby
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Mobile Version-->
+             <div class="col-sm-6 margin-second-cards d-none d-md-block d-lg-none">
               <div class="card shadow-green">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-green">Music & Games</h5>
@@ -489,22 +538,39 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
         </div>
       </div>
       <!--Memoji About me-->
-      <div class="container">
+      <div class="container d-none d-lg-block">
         <div class="row d-flex justify-content-end">
           <div class="col-3 moving-memoji">
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/464/original/icon_3.PNG?1634855683"
-              class="memoji-about"
+              class="memoji-about img-fluid"
+              alt="icon of Mili"
+            />
+          </div>
+        </div>
+      </div>
+      <!--Memoji about me for mobile-->
+      <div class="container">
+        <div
+          class="row d-flex justify-content-center d-block d-sm-block d-md-none"  align="center"
+        >
+          <div class="col-12 memoji-mobile">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/464/original/icon_3.PNG?1634855683"
+              class="img-fluid"
               alt="icon of Mili"
             />
           </div>
         </div>
       </div>
       <!--About me quote-->
-      <div class="container">
+      <div class="container moving-quote-mobile">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
             <h3 class="about-me-quote">Multitalented. Intuitive. Dedicated.</h3>
+          </div>
+          <div class="col-12 moving-click d-flex justify-content-center">
+            <p class="color-gradient-yellow">Click the cards to know more</p>
           </div>
         </div>
       </div>
