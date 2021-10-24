@@ -1374,7 +1374,8 @@ body.background-contact-me {
 }
 
 div.background-main {
-  margin: 0;
+  margin: -0.1rem 0 0 0;
+  padding: 0;
   background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8); 
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
