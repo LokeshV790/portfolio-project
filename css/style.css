@@ -185,7 +185,7 @@ div.margin-cards {
 }
 
 div.padding-footer {
-  padding: 4rem 2rem 8rem 2rem !important;
+  padding: 4rem 2rem 8rem 2rem;
 }
 
 button.btn {
@@ -204,6 +204,24 @@ button.btn {
   transform: translateY(-7px);
 }
 
+div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 1rem !important;
+}
+
+ p.footer-description, a.footer-description {
+  font-size: 13px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+div.padding-footer {
+  padding: 4rem 2rem 8rem 2rem !important;
+}
+
 }
 
 /*IPhone Portrait*/
@@ -215,6 +233,24 @@ button.btn {
       0px 40px 20px rgba(255, 219, 57, 0.3),
       30px -20px 20px rgba(118, 255, 255, 0.22) !important;
   }
+
+  p.footer-description, a.footer-description {
+  font-size: 9px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+  div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 1rem !important;
+}
+
+a.footer-description {
+  margin: 0 0 0 0.3rem !important;
+}
 
   div.margin-cards {
   margin: 2rem 0 0 0 !important;
@@ -683,6 +719,26 @@ button.btn {
     padding: 0;
     display: flex;
   }
+
+   div.padding-footer {
+  padding: 5rem 6rem 7rem 6rem !important;
+}
+
+
+  p.footer-description, a.footer-description {
+  font-size: 12px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 2rem !important;
+}
+
 }
 
 /*Phone Screen (bigger than IPhone)*/
@@ -691,6 +747,26 @@ button.btn {
   h1.tittle {
     font-size: 40px;
   }
+
+  div.padding-footer {
+  padding: 5rem 6rem 7rem 6rem !important;
+}
+
+
+  p.footer-description, a.footer-description {
+  font-size: 12px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 2rem !important;
+}
+
 
 
 button.btn {
@@ -858,6 +934,12 @@ h3.mobile-size-footer {
     font-size: 50px !important;
   }
 
+  div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 2rem !important;
+}
+
   button.btn {
   font-size: 25px !important;
   margin: 2rem 0 0 0;
@@ -956,6 +1038,26 @@ h3.mobile-size-footer {
   div.description-skill {
     font-size: 13px !important;
   }
+
+   div.padding-footer {
+  padding: 5rem 6rem 7rem 6rem !important;
+}
+
+
+  p.footer-description, a.footer-description {
+  font-size: 16px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 2rem !important;
+}
+
 
 
   div.line-horizontal {
