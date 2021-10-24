@@ -11,6 +11,7 @@
   --pink: #ef629f;
   --light-blue: #20bdff;
   --opacity: 60%;
+  --card-background: #26243b;
 }
 
 /*Phone Landscape*/
@@ -183,6 +184,26 @@ div.margin-cards {
   margin: 2rem 0 0 0 !important;
 }
 
+div.padding-footer {
+  padding: 4rem 2rem 8rem 2rem !important;
+}
+
+button.btn {
+  font-size: 17px !important;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1rem !important;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
 }
 
 /*IPhone Portrait*/
@@ -197,6 +218,26 @@ div.margin-cards {
 
   div.margin-cards {
   margin: 2rem 0 0 0 !important;
+}
+
+div.padding-footer {
+  padding: 4rem 2rem 8rem 2rem !important;
+}
+
+button.btn {
+  font-size: 17px !important;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1rem !important;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 div.memoji-mobile {
@@ -489,6 +530,22 @@ font-size: 20px !important;
     font-size: 40px;
   }
 
+button.btn {
+  font-size: 20px !important;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1rem !important;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
   div.memoji-mobile {
   width: 150px;
   text-align: center;
@@ -635,6 +692,27 @@ font-size: 20px !important;
     font-size: 40px;
   }
 
+
+button.btn {
+  font-size: 25px !important;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1.5rem !important;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+h3.mobile-size-footer {
+  font-size: 60px !important;
+}
+
   div.memoji-mobile {
   width: 200px;
   text-align: center;
@@ -779,6 +857,27 @@ font-size: 20px !important;
   h3.size-quote {
     font-size: 50px !important;
   }
+
+  button.btn {
+  font-size: 25px !important;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1.5rem !important;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+h3.mobile-size-footer {
+  font-size: 60px !important;
+}
+
 
    h5.card-green {
     font-size: 34px !important;
@@ -925,7 +1024,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #ecf2f7 !important;
+  background: var(--card-background) !important;
 }
 
 div.background-main {
@@ -1184,7 +1283,7 @@ h3.second-part-quote {
 }
 
 div.services-space {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   background-color: var(--dark-background);
 }
 
@@ -1680,3 +1779,57 @@ p.color-gradient-yellow {
     font-family: var(--font);
     font-weight: 600;
 }
+
+div.padding-footer {
+  padding: 6rem 6rem 11rem 6rem;
+}
+
+button.btn {
+  font-size: 25px;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 30px rgba(23, 9, 44, 0.37);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button.btn:hover {
+  border: none;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+div.line-footer {
+  height: 8rem;
+  border-left: 2px solid #ffffff;
+  opacity: 30%;
+  padding: 0;
+  display: flex;
+}
+
+div.border-top-footer {
+  border-top: solid 1px var(--purple);
+  margin: 0 0 4rem 0;
+  padding: 1.5rem 5rem;
+}
+
+p.footer-description {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+
+
+
+
+
