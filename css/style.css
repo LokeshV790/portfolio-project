@@ -1131,7 +1131,7 @@ body {
 
 div.background-main {
   margin: 0;
-  background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+  background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8); 
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: fit-content;
@@ -1940,8 +1940,56 @@ a.footer-description:hover {
 color: var(--purple);
 }
 
+div.padding-contact {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
+div.padding-body-contact {
+  padding: 4rem 6rem;
+  margin: 6rem 15rem 6.5rem 15rem;
+}
 
+img.image-contact {
+  width: 220px;
+ border-radius: 100%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-width: 10px;
+  box-shadow: 0px 20px 40px rgba(90, 62, 99, 0.1),
+    0 0 2pt 4pt rgba(255, 255, 255, 0.6);
+}
+
+div.contact-information {
+  margin: 2rem 0 0 0;
+}
+
+h3.email-contact {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--white);
+  margin: 1rem 0 0 0;
+}
+
+div.icons-contact {
+  font-size: 50px;
+  color: var(--white);
+}
+
+a.link-email {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 200ms ease-in-out;
+}
+
+a.link-email:hover {
+  color: #ffffffb9;
+}
 
 
 
