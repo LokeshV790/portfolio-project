@@ -318,7 +318,7 @@ button.btn {
 div.memoji-mobile {
   width: 150px;
   text-align: center;
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
     h5.card-title {
@@ -339,10 +339,6 @@ div.moving-quote-mobile {
 
 p.card-info {
   font-size: 17px !important;
-}
-
-div.card-body {
-  margin: 0rem 0 1rem 0 !important;
 }
 
 div.shadow-pink{
