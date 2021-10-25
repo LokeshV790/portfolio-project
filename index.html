@@ -92,13 +92,13 @@
       </div>
 
       <!--Name-->
-      <div class="container position-relative move-name d-none d-sm-block">
+      <div class="container position-relative move-name d-none d-lg-block">
         <div class="row row-cols-auto">
           <div class="col-1 d-md-block d-none d-lg-none"></div>
           <div class="col-sm-2 d-lg-block d-md-none"></div>
           <div class="row name-card">
             <div class="col-sm-1 col-sm-4">
-              <h3 class="pt-4 d-none d-sm-block hand">👋</h3>
+              <h3 class="pt-4 d-none d-lg-block hand">👋</h3>
               <h3 class="pt-1 d-sm-none hand">👋</h3>
             </div>
             <div class="col-sm-1 col-sm-6 p-2">
@@ -109,7 +109,7 @@
       </div>
 
       <!--UI designer-->
-      <div class="container position-relative d-none d-sm-block ui-design-card">
+      <div class="container position-relative d-none d-lg-block ui-design-card">
         <div class="row row-cols-auto">
           <div class="col-7"></div>
           <div class="col skills-bubble name-card">UI Designer 📐</div>
@@ -117,7 +117,7 @@
       </div>
 
       <!--2D Artist-->
-      <div class="container position-relative d-none d-md-block artist-move">
+      <div class="container position-relative d-none d-lg-block artist-move">
         <div class="row row-cols-auto">
           <div class="col-6 d-none d-sm-none d-md-block d-lg-block"></div>
           <div class="col artist name-card">2D Artist 🎨</div>
@@ -125,7 +125,7 @@
       </div>
 
       <!--Name card for mobile-->
-      <div class="container d-block d-sm-none">
+      <div class="container d-block d-lg-none">
         <div class="row row-cols-auto">
           <div class="col-3"></div>
           <div class="col-6" align="center">
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="col-3"></div>
           <div class="col-6" align="center">
-            <a class="nav-link work-link-color lets-work mb-3">Let's work! ></a>
+            <a href="/contact.html"class="nav-link work-link-color lets-work mb-3">Let's work! ></a>
           </div>
 
           <!--Line vertical-->
@@ -328,15 +328,15 @@
         <div class="row">
           <div class="col-9"></div>
           <div class="col-1 ms-2">
-            <div class="line-blue-vertical space-line-projects d-"></div>
+            <div class="line-blue-vertical space-line-projects d-none d-sm-none d-md-none d-lg-block"></div>
           </div>
           <div class="col-6"></div>
           <!--Horizontal line-->
-          <div class="col-2 d-none d-sm-block">
+          <div class="col-2 d-none d-sm-none d-md-none d-lg-block">
             <div class="line-horizontal-project blue"></div>
           </div>
           <!--Vertical Line-->
-          <div class="col-10 ms-2 d-none d-sm-block">
+          <div class="col-10 ms-2 d-none d-sm-none">
             <div class="line-blue-vertical projects-margin" id="projects"></div>
           </div>
         </div>
@@ -415,7 +415,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
             </a>
           </div>
           <!--Message at the bottom-->
-          <div class="col-12 d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center" align="center">
             <p class="curious-message">Curious about the process?</p>
           </div>
           <div class="col-12 d-flex justify-content-center visit-position">
@@ -451,7 +451,19 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
           </div>
           <!--Cards of About me-->
           <div class="row margin-cards">
-            <div class="col-sm-4 d-block d-md-none d-lg-block">
+            <div class="col-sm-4 d-block d-sm-none d-md-none d-lg-block">
+              <div class="card shadow-pink">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-yellow">Education</h5>
+                  <p class="card-info">
+                    Certificated Front-End-Developer by SheCodes Workshops in
+                    2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Sm for landscape-->
+            <div class="col-sm-6 d-none d-sm-block d-md-none">
               <div class="card shadow-pink">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-yellow">Education</h5>
@@ -475,7 +487,19 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
               </div>
             </div>
             <!--Illustration-->
-            <div class="col-sm-4 d-block d-md-none d-lg-block">
+            <div class="col-sm-4 d-block d-sm-none d-md-none d-lg-block">
+              <div class="card shadow-blue">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-blue">Illustration</h5>
+                  <p class="card-info">
+                    Freelancer illustrator since 2018. A love for portraits and
+                    character design
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Sm for landscape-->
+<div class="col-sm-6 d-none d-sm-block d-md-none">
               <div class="card shadow-blue">
                 <div class="card-body" align="center">
                   <h5 class="card-title card-blue">Illustration</h5>
@@ -499,12 +523,27 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
               </div>
             </div>
             <div
-              class="col-sm-4 d-block d-md-none d-lg-block"
+              class="col-sm-4 d-block d-sm-none d-md-none d-lg-block"
               align="center"
             ></div>
             <!--2nd row of cards-->
             <div
-              class="col-sm-4 margin-second-cards d-block d-md-none d-lg-block"
+              class="col-sm-4 margin-second-cards d-block d-sm-none d-md-none d-lg-block"
+            >
+              <div class="card shadow-purple">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-purple">Networking</h5>
+                  <p class="card-info">
+                    Created a plataform on Instagram to share my journey and
+                    connect with everyone
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Sm for landscape-->
+             <div
+              class="col-sm-6 margin-second-cards d-none d-sm-block d-md-none"
             >
               <div class="card shadow-purple">
                 <div class="card-body" align="center">
@@ -532,7 +571,21 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
             </div>
             <!--Music-->
             <div
-              class="col-sm-4 margin-second-cards d-block d-md-none d-lg-block"
+              class="col-sm-4 margin-second-cards d-block d-sm-none d-md-none d-lg-block"
+            >
+              <div class="card shadow-green">
+                <div class="card-body" align="center">
+                  <h5 class="card-title card-green">Music & Games</h5>
+                  <p class="card-info">
+                    Songwritter, pianist and singer in my freetime. I also enjoy
+                    playing videogames as a hobby
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--sm for landscape-->
+             <div
+              class="col-sm-6 margin-second-cards d-none d-sm-block d-md-none"
             >
               <div class="card shadow-green">
                 <div class="card-body" align="center">
@@ -591,8 +644,8 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/origina
       </div>
       <!--About me quote-->
       <div class="container moving-quote-mobile">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center">
+        <div class="row"  align="center">
+          <div class="col-12 d-flex justify-content-center" align="center">
             <h3 class="about-me-quote">Multitalented. Intuitive. Dedicated.</h3>
           </div>
           <div class="col-12 moving-click d-flex justify-content-center" align="center">
